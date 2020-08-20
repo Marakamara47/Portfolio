@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Максим Сухорученко - начинающий веб-разработчик</title>
+    <link rel="stylesheet" href="css/animate.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap"
       rel="stylesheet"
@@ -14,7 +15,7 @@
     <header class="hero">
       <div class="container">
         <div class="hero-header">
-          <p>Резюме IT-специалиста</p>
+          <p>Портфолио IT-специалиста</p>
           <div class="social-links">
             <a href="https://github.com/Marakamara47" class="social-link"
               ><img src="img\social\github.svg" alt="Github"
@@ -31,20 +32,185 @@
         <!-- /.hero-header -->
         <div class="hero-content">
           <div class="hero-text">
-            <span class="hero-subtitle">Начинающий веб-разработчик</span>
-            <h1 class="hero-title">Максим Сухорученко</h1>
-            <p class="hero-description">
+            <span class="hero-subtitle wow fadeInRight" data-wow-delay="0.4s"
+              >Начинающий веб-разработчик</span
+            >
+            <h1 class="hero-title wow fadeInRight" data-wow-delay="0.6s">
+              Максим Сухорученко
+            </h1>
+            <p class="hero-description wow fadeInRight" data-wow-delay="0.8s">
               готов делать вашу срань за деньги
             </p>
           </div>
           <!-- /.hero-text -->
-          <div class="hero-avatar"></div>
+          <div class="hero-avatar wow fadeIn" data-wow-delay="1.2s"></div>
           <!-- /.hero-avatar -->
         </div>
         <!-- /.hero-content -->
       </div>
       <!-- /.container -->
     </header>
-    <script src="/main.js"></script>
+    <main>
+      <section class="features section">
+        <div class="container">
+          <h2 class="section-title">Со мной удобно работать</h2>
+          <div class="features-block">
+            <div class="features-item">
+              <img
+                src="img/features/offer-img.svg"
+                alt="По договору"
+                class="features-image"
+              />
+              <h3 class="features-title">По договору</h3>
+              <p class="features-text">
+                Предоставлю все документы для бухгалтерии: договоры, счета и
+                акты. Работаю как ИП без НДС.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/deadline-img.svg"
+                alt="Точно в срок"
+                class="features-image"
+              />
+              <h3 class="features-title">Точно в срок</h3>
+              <p class="features-text">
+                В договоре прописана моя ответственность за срок проекта. Если
+                просрочу — плачу неустойку.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/agreement-img.svg"
+                alt="Ценник под вас"
+                class="features-image"
+              />
+              <h3 class="features-title">Ценник под вас</h3>
+              <p class="features-text">
+                Если у вас нетиповой проект, сделаю рассчет цены за работу и
+                объясню, как складывается цена.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/steps-img.svg"
+                alt="Премежуточные итоги"
+                class="features-image"
+              />
+              <h3 class="features-title">Премежуточные итоги</h3>
+              <p class="features-text">
+                Показываю работу поэтапно, а не в последий момент перед крайним
+                сроком.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/storage-img.svg"
+                alt="Хостинг и домен "
+                class="features-image"
+              />
+              <h3 class="features-title">Хостинг и домен</h3>
+              <p class="features-text">
+                Если мы договорились о цене проекта, в неё входит всё: домен и
+                хостинг на год + SSL сертификат.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/conversation-img.svg"
+                alt="Не брошу после сдачи"
+                class="features-image"
+              />
+              <h3 class="features-title">Не брошу после сдачи</h3>
+              <p class="features-text">
+                Научу вас или вашего сотрудника пользоваться сайтом, запишу
+                видео-инструкции.
+              </p>
+            </div>
+          </div>
+          <!-- /.features-block -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.features -->
+    </main>
+    <footeer class="section">
+      <div class="container">
+        <h2 class="section-title">Свяжитесь со мной</h2>
+        <div class="contacts-block">
+          <form action="#" class="contacts-form">
+            <h4 class="form-title">
+              Можете просто оставить ваши контакты, я напишу вам сегодня
+            </h4>
+            <input
+              type="text"
+              class="input input-name"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="text"
+              class="input input-phone"
+              placeholder="Ваш E-mail"
+            />
+            <button class="button form-button">Отправить</button>
+          </form>
+          <div class="contacts-text">
+            <div class="contacts-data">
+              <div class="contacts-phone">
+                <h4 class="contacts-title">Телефон</h4>
+                <a href="tel:+380990728838" class="contacts-link"
+                  >+38 099 072-88-38</a
+                >
+              </div>
+              <!-- /.contacts-phone -->
+              <div class="contacts-mail">
+                <h4 class="contacts-title">Почта</h4>
+                <a href="mailto:suhiimacsim@gmail.com" class="contacts-link"
+                  >suhiimacsim@gmail.com</a
+                >
+              </div>
+              <!-- /.contacts-mail -->
+              <div class="contacts-social">
+                <h4 class="contacts-title">Соцсети</h4>
+                <a href="https://web.telegram.org/" class="contacts-link"
+                  >Telegram: @marakamara47</a
+                >
+                <a
+                  href="https://www.facebook.com/Marakamara47/"
+                  class="contacts-link"
+                  >Facebook</a
+                >
+                <a
+                  href="https://www.linkedin.com/in/maksymsuchoruchenko/"
+                  class="contacts-link"
+                  >Linkedin</a
+                >
+              </div>
+              <!-- /.contacts-social -->
+            </div>
+            <!-- /.contacts-data -->
+            <div class="social-links">
+              <a href="https://github.com/Marakamara47" class="social-link"
+                ><img src="img\social\github.svg" alt="Github"
+              /></a>
+              <a
+                href="https://www.facebook.com/Marakamara47/"
+                class="social-link"
+                ><img src="img\social\facebook.svg" alt="Facebook"
+              /></a>
+              <a href="https://www.instagram.com/47chro/" class="social-link"
+                ><img src="img\social\instagram.svg" alt="Instagram"
+              /></a>
+            </div>
+            <!-- social-links -->
+            <a href="#" class="contacts-policy">Политика конфиденциальности</a>
+          </div>
+          <!-- /.contacts-text -->
+        </div>
+        <!-- /.contacts-block -->
+      </div>
+    </footeer>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
