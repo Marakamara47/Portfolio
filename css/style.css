@@ -305,4 +305,18 @@ body {
   .features-item {
     flex-basis: 45%;
   }
+  .project-slide {
+    flex-direction: column;
+  }
+  .project-image {
+    margin-bottom: 46px;
+  }
+  .contacts-block {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+  .contacts-form {
+    margin-bottom: 58px;
+  }
 }
