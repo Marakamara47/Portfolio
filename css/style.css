@@ -10,6 +10,9 @@ body {
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
+ul {
+  padding-left: 0;
+}
 .container {
   widows: 90%;
   max-width: 924px;
@@ -80,7 +83,7 @@ body {
 .hero-description {
   font-size: 16px;
   line-height: 28px;
-  max-width: 420px;
+  max-width: 480px;
 }
 .hero-avatar {
   width: 389px;
@@ -264,12 +267,12 @@ body {
 .contacts-link {
   text-decoration: none;
   color: inherit;
-  margin-right: 37px;
+  margin-right: 34px;
 }
 .contacts-link:hover {
   text-decoration: underline;
 }
-.contacts-policy {
+.contacts-git {
   display: inline-block;
   font-size: 15px;
   line-height: 18px;
