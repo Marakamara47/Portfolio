@@ -320,7 +320,6 @@ ul {
   }
   .contacts-block {
     align-items: flex-start;
-
     flex-direction: column;
   }
   .contacts-form {
