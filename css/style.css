@@ -57,10 +57,7 @@ ul {
 .social-link {
   margin-left: 20px;
 }
-.social-link:first-child {
-  margin: 0px;
-  padding-left: 100px;
-}
+
 .hero-content {
   display: flex;
   justify-content: space-between;
@@ -281,6 +278,10 @@ ul {
   margin-top: 72px;
   margin-left: 100px;
 }
+.social-links-contacs {
+  margin: 0;
+  padding-left: 100px;
+}
 
 /* responsive */
 
@@ -413,5 +414,9 @@ ul {
     line-height: 16px;
     display: block;
     margin-bottom: 13px;
+  }
+  .social-link-contacs:first-child {
+    margin: 0;
+    padding: 0;
   }
 }
